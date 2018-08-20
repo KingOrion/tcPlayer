@@ -2,9 +2,70 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link href="public/css/materialize.min.css" type="text/css"
+	rel="stylesheet" media="screen,projection" />
+<link href="public/css/base.css" type="text/css"
+	rel="stylesheet" media="screen,projection" />
 <title>播放器主页</title>
 </head>
 <body>
-	<h1>欢迎来到播放器主页</h1>
+	<nav class="blue-grey darken-1" role="navigation">
+		<div class="nav-wrapper container">
+			<a id="logo-container" href="/" class="brand-logo">窠</a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="#">首页</a></li>
+				<li><a href="#">关于</a></li>
+
+			</ul>
+
+			<ul id="nav-mobile" class="side-nav">
+				<li><a href="#">首页</a></li>
+				<li><a href="#">关于</a></li>
+			</ul>
+			<!-- To be compatible with some old browsers(especially mobile browsers), use &#xE5D2 instead of menu. For more information visit the link below.
+         http://google.github.io/material-design-icons/#using-the-icons-in-html
+         -->
+			<a href="#" data-activates="nav-mobile" class="button-collapse"><i
+				class="material-icons">&#xE5D2</i></a>
+		</div>
+	</nav>
+
+	<div class="section no-pad-bot" id="index-banner">
+		<div class="container">
+			<h1 class="header center">快醒醒</h1>
+			<div class="row center">
+				<h5 class="header col s12 light">作为一个死肥宅你睡的也太久了</h5>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="section">
+
+			<!--   Icon Section   -->
+			<div class="row">
+				<div class="col s12 m12" style="display: flex; justify-content: center;"></div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="page-footer blue-grey darken-1">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">关于  窠</h5>
+					<p class="grey-text text-lighten-4">总有一天我们会忘记如此放肆的自己</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				&copy; 窠 Theme by <a class="orange-text text-lighten-3"
+					href="http://materializecss.com">Materialize</a>
+			</div>
+			<div style="display: none;"></div>
+		</div>
+	</footer>
 </body>
 </html>
